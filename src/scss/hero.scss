@@ -55,7 +55,7 @@ $var2: #FFFFFF;
 		cursor: pointer;
 		@media(max-width: 575px ){
 				position: relative;
-				margin-top: 365px;
+				margin-top: 370px;
 				z-index:3;
 			}
 	}
@@ -78,14 +78,14 @@ $var2: #FFFFFF;
 	&__image1 {
 		position: absolute;
 		top: 0px;
-		left: 725px;
+		left: 425px;
 		z-index: 1;
 		@media(max-width: 1200px ){
-			transform: translateX(-45%);
+			transform: translateX(-20%);
 		}
 
 		@media(max-width: 990px ){
-				transform: translateX(-70%);
+				transform: translateX(-40%);
 			}
 			@media(max-width: 575px ){
 					display: none;
@@ -94,13 +94,13 @@ $var2: #FFFFFF;
 	&__image2 {
 		position: absolute;
 		top: 0px;
-		left: 816px;
+		left: 516px;
 		z-index: 2;
 		@media(max-width: 1200px ){
-			transform: translateX(-55%);
+			transform: translateX(-25%);
 		}
 		@media(max-width: 990px ){
-				transform: translateX(-88%);
+				transform: translateX(-50%);
 			}
 			@media(max-width: 575px ){
 					display: none;
@@ -109,13 +109,13 @@ $var2: #FFFFFF;
 	&__image3 {
 		position: absolute;
 		top: 0px;
-		left: 863px;
+		left: 563px;
 		z-index: 3;
 		@media(max-width: 1200px ){
-			transform: translateX(-65%);
+			transform: translateX(-30%);
 		}
 		@media(max-width: 990px ){
-				transform: translateX(-100%);
+				transform: translateX(-60%);
 			}
 			@media(max-width: 575px ){
 					display: none;
