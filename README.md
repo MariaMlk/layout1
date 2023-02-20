@@ -1,2 +1,2 @@
 # layout1
- Adaptive layout
+ Адаптивная верстка 

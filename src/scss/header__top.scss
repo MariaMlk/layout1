@@ -1,0 +1,55 @@
+$var1: #FFFFFF;
+$var2: #000000;
+$var3: #66C05D;
+
+.header__top {
+	background-color: $var1;
+	&-item {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+    }
+	&-logos {
+		margin-top: 20px;
+    }
+	
+	&-logos {
+		display: flex;
+		align-items: center;
+    }
+	
+	&-logo1 {
+		margin-right: 20px;
+    }
+	
+	&-contacts {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		@media(max-width: 575px ){
+				display: none;
+			}
+    }
+	
+	&-tel {
+		font-weight: 400;
+		font-size: 16px;
+		line-height: 19px;
+		color: $var2;
+		text-decoration: none;
+		margin-right: 40px;
+    }
+	
+	&-btn {
+		font-weight: 400;
+		font-size: 14px;
+		line-height: 16px;
+		color: $var2;
+		border: 2px solid $var3;
+		border-radius: 40px;
+		background-color: $var1;
+		width: 170px;
+		height: 40px;
+		cursor: pointer;
+    }
+}

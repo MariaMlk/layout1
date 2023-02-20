@@ -1,0 +1,36 @@
+$var1: #EFEFEF;
+$var2: #333333;
+
+.header {
+	padding: 0;
+	background-color: $var1;
+	&__menu-list {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		padding: 17px 0 16px 0;
+		margin: 0;
+		@media(max-width: 575px ){
+				display: grid;
+				grid-template-columns: 1fr 1fr 1fr ;
+				grid-template-rows:1fr 1fr ;
+				justify-content: center;
+			}
+	}
+    
+	&__menu-link {
+		list-style-type: none;
+		margin-left: 30px;
+		font-weight: 400;
+		font-size: 14px;
+		line-height: 16px;
+		color: $var2;
+		cursor: pointer;
+		@media(max-width: 575px ){
+				margin-bottom: 15px;
+			}
+	}
+}
+
+
+

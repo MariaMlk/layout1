@@ -1,0 +1,134 @@
+$var1: #66C05D;
+$var2: #FFFFFF;
+
+.hero {
+	background-color: $var1;
+	display: flex;
+	height: 604px;
+	&__text {
+		justify-content: center;
+		align-items: center;
+		width: 308px;
+		@media(max-width: 575px ){
+				justify-content: center;
+				align-items: center;
+				width: 308px;
+				z-index:3;
+			}
+	}
+	&__title {
+		margin-top: 192px;
+		font-weight: 700;
+		font-size: 48px;
+		line-height: 56px;
+		color: $var2;
+		@media(max-width: 575px ){
+				position: relative;
+				margin-top: 15px;
+				z-index:3;
+			}
+	}
+	&__subtitle {
+		font-weight: 400;
+		font-size: 14px;
+		line-height: 20px;
+		color: $var2;
+		margin: 50px 0;
+		@media(max-width: 575px ){
+				position: relative;
+				margin-top: 15px;
+				z-index:3;
+			}
+	}
+	&__btn {
+		font-weight: 400;
+		font-size: 14px;
+		line-height: 16px;
+		text-align: center;
+		letter-spacing: 0.05em;
+		color: $var2;
+		width: 170px;
+		height: 40px;
+		background: $var1;
+		border: 2px solid $var2;
+		border-radius: 40px;
+		cursor: pointer;
+		@media(max-width: 575px ){
+				position: relative;
+				margin-top: 365px;
+				z-index:3;
+			}
+	}
+	&__container {
+		background-color: $var1;
+		position: relative;
+	}
+	&__images {
+		position: absolute;
+		top: 0px;
+		left: 0px;
+		z-index: 1;
+		@media(max-width: 990px ){
+				position: absolute;
+				top: 0px;
+				left: 0px;
+				z-index: 1;
+			}
+	}
+	&__image1 {
+		position: absolute;
+		top: 0px;
+		left: 725px;
+		z-index: 1;
+		@media(max-width: 1200px ){
+			transform: translateX(-45%);
+		}
+
+		@media(max-width: 990px ){
+				transform: translateX(-70%);
+			}
+			@media(max-width: 575px ){
+					display: none;
+				}
+	}
+	&__image2 {
+		position: absolute;
+		top: 0px;
+		left: 816px;
+		z-index: 2;
+		@media(max-width: 1200px ){
+			transform: translateX(-55%);
+		}
+		@media(max-width: 990px ){
+				transform: translateX(-88%);
+			}
+			@media(max-width: 575px ){
+					display: none;
+				}
+	}
+	&__image3 {
+		position: absolute;
+		top: 0px;
+		left: 863px;
+		z-index: 3;
+		@media(max-width: 1200px ){
+			transform: translateX(-65%);
+		}
+		@media(max-width: 990px ){
+				transform: translateX(-100%);
+			}
+			@media(max-width: 575px ){
+					display: none;
+				}
+	}
+	&__image4 {
+		display: none ;
+		@media(max-width: 575px ){
+				display: block;
+				position: absolute;
+				top:20px;
+				left:-100px;
+				z-index: 0;
+			}
+	}
+}

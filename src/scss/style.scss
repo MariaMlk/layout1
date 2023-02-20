@@ -1,0 +1,45 @@
+@import "header.scss";
+@import "header__top.scss";
+@import "header__bottom.scss";
+@import "hero.scss";
+@import "special.scss";
+@import "offers.scss";
+@import "footer.scss";
+
+*,
+*:after,
+*:before{
+    box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6{
+    margin: 0; 
+}
+
+hr{
+    border: 1px solid #EFEFEF;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    margin:0;
+}
+
+.container{
+    width: 100%;
+    max-width: 1110px;
+    margin: 0 auto;
+}
+
+section{
+    margin: 0 auto;
+}
+
+@media(max-width: 1170px ){
+    .container{
+        padding: 0 15px;
+    }
+}
