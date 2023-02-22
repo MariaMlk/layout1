@@ -11,6 +11,7 @@ $var3: #66C05D;
     }
 	&-logos {
 		margin-top: 20px;
+		
     }
 	
 	&-logos {
@@ -26,6 +27,7 @@ $var3: #66C05D;
 		display: flex;
 		justify-content: space-between;
 		align-items: center;
+		margin-top:20px;
 		@media(max-width: 575px ){
 				display: none;
 			}

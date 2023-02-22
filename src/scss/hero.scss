@@ -124,10 +124,22 @@ $var2: #FFFFFF;
 	&__image4 {
 		display: none ;
 		@media(max-width: 575px ){
+			width: 484px;
+			height: 484px;
+			display: block;
+			position: absolute;
+			top:90px;
+			left:40px;
+			z-index: 0;
+		}
+
+		@media(max-width: 414px ){
+				width: 484px;
+				height: 484px;
 				display: block;
 				position: absolute;
-				top:20px;
-				left:-100px;
+				top:90px;
+				left:-50px;
 				z-index: 0;
 			}
 	}
